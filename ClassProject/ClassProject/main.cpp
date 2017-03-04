@@ -14,7 +14,8 @@ int main()
 	Employee paul = Employee("paul");
 	Bank test = Bank(50000);
 	Register one = Register(400, 10, 10, 15, 15, "One");
-	
+	Register two = Register(200, 5, 5, 5, 15, "Two");
+
 	//cout << "$" + test.getBalance() << endl;
 	test.addEmployee(john, 0);
 	test.addEmployee(paul, 1);
