@@ -1,11 +1,16 @@
 #pragma once
+#include "Employee.h"
 class Bank
 {
 private:
-	double totalAmount;
-	Employee _employee;
+	double _totalAmount;
+	Employee _employee [5];
+
 public:
-	Bank();
+	Bank(double totalAmount);
 	~Bank();
+
+	bool Bank::addEmployee(Employee newEmployee, int position);
+	int getBalance();
 };
 

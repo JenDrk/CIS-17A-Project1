@@ -2,7 +2,7 @@
 using namespace std;
 
 
-Customer::Customer(float moneyOnHand, float accountValue)
+Customer::Customer(double moneyOnHand, double accountValue)
 {
 	_moneyOnHand = moneyOnHand;
 	_accountValue = accountValue;
