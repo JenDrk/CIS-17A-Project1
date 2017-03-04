@@ -1,8 +1,8 @@
 #include <iostream>
-#include <vector>
 #include "Customer.h"
 #include "Bank.h"
 #include "Employee.h"
+#include "Register.h"
 using namespace std;
 
 int main()
@@ -13,17 +13,11 @@ int main()
 	Employee john = Employee("john");
 	Employee paul = Employee("paul");
 	Bank test = Bank(50000);
+	Register one = Register(400, 10, 10, 15, 15, "One");
 	
 	//cout << "$" + test.getBalance() << endl;
 	test.addEmployee(john, 0);
 	test.addEmployee(paul, 1);
-
-	cout << john.GetName() << endl;
-	cout << dan._moneyOnHand << endl;
-	cout << dan._accountValue << endl;
-	cout << bob._moneyOnHand << endl;
-	cout << bob._accountValue << endl;
-
 
 	getchar();
 	return 0;
